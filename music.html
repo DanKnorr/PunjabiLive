@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Restaurant Site</title>
+	<link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Open+Sans" rel="stylesheet">
+	
+	<style>	  
+	  html {
+	  	 min-height: 100%;
+		 position: relative;
+	  }
+
+	  body {
+		 background: linear-gradient(rgb(173, 121, 32), rgb(183, 91, 29));
+		 margin: 0;
+		 height: 100%;
+		 background-repeat: no-repeat;
+		 background-attachment: fixed;
+	  }
+	  
+	  ul {
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+	  }
+	  
+	  li {
+		  display: inline-block;
+		  padding-top: 15px;
+		  padding-bottom: 25px;
+		  margin-left: 15px;
+		  margin-right: 15px;
+		  text-align: auto;
+	  }
+	  
+	  .navlink {
+	  	  color: rgb(204, 200, 0);
+		  font-family: 'Nothing You Could Do', cursive; 
+		  font-size: 2.5em;
+		  text-decoration: none;
+		  padding: 14px 25px;	
+		  top: 20px;
+	  }
+	  
+	  #home-link {
+		  position: absolute;
+		  left: 30%;
+	  }
+
+	  #event-link {
+		  position: absolute;
+		  left: 46%;
+		  margin-left: -100px;
+	  }
+
+	  #menu-link {
+	      position: absolute;
+		  right: 29%;
+	  }
+
+	  #phone-number {
+		  color: rgb(204, 200, 0);
+		  font-family: 'Nothing You Could Do', cursive; 
+		  font-size: 2em;
+		  position: absolute;
+		  top: 25px;
+		  right: 15px;		 	 		  
+	  }
+
+	  a:hover {
+	  	  background-color: rgb(102, 100, 99);
+		  border-radius: 5px;
+	  }
+	  
+	  p {
+	  	  font-color: rgb(255, 255, 255);
+		  font-family: 'Open Sans', sans-serif;
+		  font-size: 16px;
+	  }
+
+	  #top-title-logo {
+	  	  font-family: 'Nothing You Could Do', cursive;
+		  font-size: 4em;
+		  color: rgb(204, 200, 0);
+		  margin-left: 40px;
+		  margin-right: 65px;
+	  }
+
+	  #navcontainer {
+		  background-color: rgb(50, 60, 61);
+	  }
+
+	  #facebook-logo-link {
+	  	  width: 70px;
+		  position: absolute;
+		  top: 25px;
+		  right: 275px;
+	  }	  
+	  
+	  .info-center {
+	  	  width: 60%;
+		  margin-top: 50px;
+		  margin-left: 20%;
+		  margin-right: 20%;
+		  background-color: rgb(50, 60, 61); 
+		  font-color: white;
+		  border-radius: 10px;
+		  text-align: auto;
+	  }
+	  
+	  #calendar-pic {
+	  	  width: 60%;
+		  margin-top: 20px;
+		  margin-right: 20%;
+		  margin-left: 20%;	
+		  margin-bottom: 20px;
+		  border: 10px solid rgb(173, 121, 32);
+		  border-radius: 10px;
+	  }
+
+	  .intro {
+	  	  width: 60%;
+		  margin-left: 20%;
+		  margin-right: 20%;
+		  text-align: center; 
+		  padding-bottom: 15px;
+		  color: rgb(204, 200, 0);
+		  font-family: 'Open Sans', sans-serif;
+		  font-weight: lighter;
+		  font-style: italic;
+	  }
+
+	  footer {		
+	      width: 100%;
+		  margin: 0;
+		  position: absolute;
+		  bottom: 0;		  
+	  }
+
+	  #footer-content {
+	      width: 100%;
+	      position: absolute;
+		  bottom: 0;	  
+	  	  background: rgb(50, 60, 61);
+		  text-align: center;
+	  }
+
+	  #footer-text {
+	  	  color: rgb(204, 200, 0);
+	  }
+	</style>
+
+
+</head>
+<body>
+
+  <div id="navbar"> 
+	<ul id="navcontainer">
+	  <li id="top-title-logo">Punjabi Live</li> 
+	  <li><a id="home-link" class="navlink" href="main.html">Home</a></li>
+	  <li><a id="event-link" class="navlink" href="music.html">Music and Events</a></li>
+	  <li><a id="menu-link" class="navlink" href="menu.html">Menu</a></li>
+	  <li id="nav-facebook"><a href="https://www.facebook.com/" target="blank"><img id="facebook-logo-link" src="https://www.seeklogo.net/wp-content/uploads/2016/09/facebook-icon-preview-1-400x400.png"/></a></li>
+	  <li id="phone-number">(585) 288-4924</li>
+	</ul>
+  </div>
+
+  <div class="info-center">
+	<img id="calendar-pic" src="https://blankcalendarpages.com/printable_calendar/blank/February-2018-calendar-b2.jpg" alt="Dining Room Photo" />
+  </div>
+
+  
+  <footer>
+    <div id="footer-content">
+      <p id="footer-text">Punjabi Live | (585) 288-4924 | Copyright 2018 Knorr Publications</p>
+	</div>
+  </footer>
+
+
+</body>
+</html>
